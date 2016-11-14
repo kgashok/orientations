@@ -2,7 +2,7 @@
 
 [TOC]
 
-##CORE-7 : JAVA PROGRAMMING
+## 1 CORE-7 : JAVA PROGRAMMING
 
 ###UNIT-I: 
 Fundamentals of Object-Oriented Programming: Object-Oriented Paradigm – Basic Concepts of Object-Oriented Programming – Benefits of Object-Oriented Programming – Application of Object-Oriented Programming. Java Evolution: History – Features – How Java differs from C and C++ – Java and Internet – Java and www –Web Browsers. Overview of Java: simple Java program – Structure – Java Tokens – Statements – Java Virtual Machine.
@@ -31,7 +31,7 @@ Managing Input / Output Files in Java : Concepts of Streams- Stream Classes – 
 
 
 
-##CORE LAB-5 : PROGRAMMING LAB - JAVA
+## 2 CORE LAB-5 : PROGRAMMING LAB - JAVA
 
 1. Write a Java Applications to extract a portion of a character string and print the extracted string.
 
@@ -58,7 +58,7 @@ Managing Input / Output Files in Java : Concepts of Streams- Stream Classes – 
 1. Write a Java Program which open an existing file and append text to that file.
 
 
-##SEMESTER III CORE 5 : C++ PROGRAMMING
+## 3 SEMESTER III CORE 5 : C++ PROGRAMMING
 
 Subject Description: This subject deals with Object–oriented programming concepts like Abstraction, Encapsulation, Inheritance and Polymorphism.
 
@@ -95,5 +95,5 @@ _REFERENCE BOOKS:_
 1. Maria Litvin &amp; Gray Litvin , C++ for you, Vikas publication, 2002.
 2. John R Hubbard, Programming with C, 2nd Edition, TMH publication, 2002.
 
-## Misc
+## 4 Misc
 This file was generated using https://word-to-markdown.herokuapp.com/
