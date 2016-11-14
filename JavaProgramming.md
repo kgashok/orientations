@@ -2,10 +2,11 @@
 
 ### Proposed Agenda 
 
-|Day | AM Session 1 | AM Session 2 | PMSession1 | PMSession2| 
-|:-----|:-------|:--------|:-----|:------|
-|Day 1|Agenda review; MCQ|CC: Java PC-1 programming|JavaPaint 1 |Glossary and Map|
-|Day 2|JavaPaint 2 | PetSpeak, Patterns (RNT)| WHY Questions; REFCARDZ by KGiSL| Java in the Cloud; Programming Challenges; Mobile Hackshop |
+|Day   | AM Session 1 | AM Session 2 | PMSession1 | PMSession2| 
+|:-----|:-------------|:-------------|:-----------|:----------|
+|Day 1 |Agenda review; MCQ|CC: Java PC-1 programming|JavaPaint 1 |Glossary and Map; Patterns 1 (RNT)|
+|Day 2 |JavaPaint 2 | PetSpeak, Patterns 2 (RNT-OOP)| WHY Questions; REFCARDZ by KGiSL| Java in the Cloud; Programming Challenges; Mobile Hackshop |
+
 
 ### Suggested Artifacts
 1. Subject Glossary + ConceptMap  - "the lay of the land" using Mindmup and/or ConceptMap for the 5 units; similar to this [polymorphism topic map]
