@@ -11,7 +11,7 @@
     - Refactor one or more of the github repos (links provided below) that are already existing 
 
 4. The 20 **WHY** Challenge Questions for Java 
-5. Core Java **REFCARDZ** 
+5. Core Java **REFCARDZ** - as a self-guided motivator to a Java IT career **@KGISL**
 6. 200+ Java assignments - on CloudCoder
 
 ## Github links 
