@@ -17,6 +17,11 @@
 	- Complete the http://j.mp/rntJavaTDD problem (a non-graphical Integrated Artifact, can become full fledged with a *suitable* interface class )
 	- 200+ Java assignments - on CloudCoder
 
+6. Manual for the Java Labs with industry-standard keys for each of them 
+	- Viva Q&A to be agreed upon for each of the lab exercises 
+	- Run it like Continuous Assessment - amounting to 70% of the lab marks? 
+
+
 ## Github Links 
 
 To try online (both Java programs and Applets): http://www.browxy.com/
