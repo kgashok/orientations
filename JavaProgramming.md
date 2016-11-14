@@ -34,19 +34,19 @@
 To try online (both Java programs and Applets): http://www.browxy.com/
 
 |Repo | Description |
-|:-----|-------|
+|:-----|:-------|
 |[SuperPaint]| A java paint program made using swing, inheritance and implementation by [Jimicy](https://github.com/Jimicy)|
 |[SaveAndLoad] Paint | A simple Java painting application with multiple files that can save and load images.|
 |[Simple GUI] | Simple programs for simple displays |
 |Professional Paint| http://juliushuelsmann.github.io/paint/ |
 |Single Page Application| http://math.hws.edu/eck/cs124/javanotes6/source/SimplePaint.java |
-|[Univ Mini] | https://github.com/haxxorsid/Swing-Paint-Application |
+|[Univ Mini] | https://github.com/haxxorsid/Swing-Paint-Application was submitted as a mini project for an University paper |
 
+[//]: # (Links to various sites which are referred to in this file)
+[polymorphism topic map]: (https://github.com/kgashok/orientations/blob/master/files/polymorphismMAP.pdf) 
 [SuperPaint]: https://github.com/Jimicy/Java-SuperPaint-Application
 [Simple GUI]: https://github.com/TheMrNormalGuy/Simple-GUI
 [Univ Mini]: https://github.com/haxxorsid/Swing-Paint-Application
 [SaveAndLoad]: https://github.com/dovgreenwood/Paint
 
-[//]: # (Links to various sites which are referred to in this file)
-[polymorphism topic map]: (https://github.com/kgashok/orientations/blob/master/files/polymorphismMAP.pdf) 
 
