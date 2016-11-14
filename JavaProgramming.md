@@ -7,13 +7,14 @@
     - Equivalent of reading a good book
     - Single step through the program in Java Debugger
     - set up 3-4 line changes and how it impacts the functionality 
-    - documentation printout 
+    - documentation printout
+    - Refactor one or more of the github repos that are already existing 
 
 4. The 20 **WHY** Challenge Questions for Java 
 5. Core Java **REFCARDZ** 
 6. 200+ Java assignments - on CloudCoder
 
-#### github links 
+## Github links 
 
 To try online (both Java programs and Applets): http://www.browxy.com/
 
