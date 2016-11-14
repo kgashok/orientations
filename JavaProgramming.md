@@ -14,7 +14,7 @@
     - set up 3-4 line changes and how it impacts the functionality (_remix_ the story)
 
 5. Core Java **REFCARDZ** - as a self-guided motivator to a Java IT career **@KGISL**
-	- Complete the http://j.mp/rntJavaTDD problem (non-graphics Integrated artifact)
+	- Complete the http://j.mp/rntJavaTDD problem (a non-graphical Integrated Artifact, can become full fledged with a *suitable* interface class )
 	- 200+ Java assignments - on CloudCoder
 
 ## Github Links 
