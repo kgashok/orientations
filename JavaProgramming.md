@@ -11,6 +11,8 @@
     - code printout for them to have on person 
     - Encourage them to read the "good book" and have clarifications
     - Single step through the program in Java Debugger (read-along session)
+		- use PythonTutor for smaller problems (video keys)
+		- use GRASP to present graphical representation of the relationships
     - set up 3-4 line changes and how it impacts the functionality (_remix_ the story)
 
 5. Core Java **REFCARDZ** - as a self-guided motivator to a Java IT career **@KGISL**
@@ -18,8 +20,12 @@
 	- 200+ Java assignments - on CloudCoder
 
 6. Manual for the Java Labs with industry-standard keys for each of them 
-	- Viva Q&A to be agreed upon for each of the lab exercises 
+	- Viva Q&A to be agreed upon for each of the lab exercises - here's an [example](https://rawgit.com/kgashok/orientations/master/javaLab/CarTruckProblem.png)
 	- Run it like Continuous Assessment - amounting to 70% of the lab marks? 
+
+7. CCS Session (pair programming with developers)
+	- FizzBuzzMix OOP kata in CyberDojo  
+	- US High School AP problem [Mountain Paths](http://nifty.stanford.edu/2016/franke-mountain-paths/assignmentSheets/Nifty_MountainPaths_FullAssignment.pdf)
 
 
 ## Github Links 
