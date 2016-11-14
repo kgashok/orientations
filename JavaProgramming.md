@@ -8,7 +8,7 @@
     - Single step through the program in Java Debugger
     - set up 3-4 line changes and how it impacts the functionality 
     - documentation printout
-    - Refactor one or more of the github repos that are already existing 
+    - Refactor one or more of the github repos (links provided below) that are already existing 
 
 4. The 20 **WHY** Challenge Questions for Java 
 5. Core Java **REFCARDZ** 
