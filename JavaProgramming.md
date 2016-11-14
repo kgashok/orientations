@@ -1,5 +1,12 @@
 # Ideas for Orientation
 
+### Proposed Agenda 
+
+|Day | AM Session 1 | AM Session 2 | PMSession1 | PMSession2| 
+|:-----|:-------|:--------|:-----|:------|
+|Day 1|Agenda review; MCQ|CC: Java PC-1 programming|JavaPaint 1 |Glossary and Map|
+|Day 2|JavaPaint 2 | PetSpeak, Patterns (RNT)| WHY Questions; REFCARDZ by KGiSL| Java in the Cloud; Programming Challenges; Mobile Hackshop |
+
 ### Suggested Artifacts
 1. Subject Glossary + ConceptMap  - "the lay of the land" using Mindmup and/or ConceptMap for the 5 units; similar to this [polymorphism topic map]
 	- Useful links to includ in the glossary 
@@ -18,8 +25,6 @@
 		- use GRASP to present graphical representation of the relationships
     - set up 3-4 line changes and how it impacts the functionality (_remix_ the story)
 
-5. Core Java **REFCARDZ** - as a self-guided motivator to a Java IT career **@KGISL**
-
 6. Learning resources 
 We must track coding metrics - have every student at least complete 25-30 problems in Java, regardless of how poor they are. Coding mentors must be assigned on a 1:3 basis. 
 	- Fundamental 7-Constructs practice 
@@ -34,10 +39,15 @@ We must track coding metrics - have every student at least complete 25-30 proble
 	- Viva Q&A to be agreed upon for each of the lab exercises - here's an [example](https://rawgit.com/kgashok/orientations/master/javaLab/CarTruckProblem.png)
 	- Run it like Continuous Assessment - amounting to 70% of the lab marks? 
 
+5. Core Java **REFCARDZ** as vetted by [KGISL Java developers] - as a self-guided motivator to a Java IT career **@KGISL** - reviewed and ready to go 
+
 7. CCS Session (pair programming with developers)
-	- FizzBuzzMix OOP kata in CyberDojo  
+	- FizzBuzzMix OOP kata in CyberDojo for TDD skills (as recommended in http://j.mp/betterJava ) 
 	- US High School AP problem [Mountain Paths](http://nifty.stanford.edu/2016/franke-mountain-paths/assignmentSheets/Nifty_MountainPaths_FullAssignment.pdf)
 
+8. Android Mobile Workshop (@ KGISL Institute of Technology) happening in parallel
+	- Contact: Prof Rajasekaran (gitter: **@rajasekaranap**) 
+	- Those interested can sign up with him 
 
 ### Github Links 
 
@@ -53,10 +63,12 @@ To try online (both Java programs and Applets): http://www.browxy.com/
 |[Univ Mini] | https://github.com/haxxorsid/Swing-Paint-Application was submitted as a mini project for an University paper |
 
 [//]: # (Links to various sites which are referred to in this file)
+
 [polymorphism topic map]: (https://github.com/kgashok/orientations/blob/master/files/polymorphismMAP.pdf) 
 [SuperPaint]: https://github.com/Jimicy/Java-SuperPaint-Application
 [Simple GUI]: https://github.com/TheMrNormalGuy/Simple-GUI
 [Univ Mini]: https://github.com/haxxorsid/Swing-Paint-Application
 [SaveAndLoad]: https://github.com/dovgreenwood/Paint
+[KGISL Java developers]: (https://github.com/kgashok/orientations/blob/master/files/Java_Kgisl.pdf)
 
 
