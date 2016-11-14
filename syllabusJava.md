@@ -1,5 +1,5 @@
 
-To render the Table of Contents in Github, visit this [HTML](https://rawgit.com/kgashok/orientations/master/syllabusJava.html) version
+To render the Table of Contents in Github, visit this [HTML](https://rawgit.com/kgashok/orientations/master/html/syllabusJava.html) version
 
 [TOC]
 
