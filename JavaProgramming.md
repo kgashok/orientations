@@ -16,8 +16,15 @@
     - set up 3-4 line changes and how it impacts the functionality (_remix_ the story)
 
 5. Core Java **REFCARDZ** - as a self-guided motivator to a Java IT career **@KGISL**
-	- Complete the http://j.mp/rntJavaTDD problem (a non-graphical Integrated Artifact, can become full fledged with a *suitable* interface class )
+
+6. Learning resources 
+We must track coding metrics - have every student at least complete 25-30 problems in Java, regardless of how poor they are. Coding mentors must be assigned on a 1:3 basis. 
+	- Fundamental 7-Constructs practice 
+		- PC1-Java 
+		- Complete the http://j.mp/rntJavaTDD problem (a non-graphical Integrated Artifact, can become full fledged with a *suitable* interface class )
+	- Pet Speak (the Java equivalent of the C++ program series - http://j.mp/PetKG
 	- 200+ Java assignments - on CloudCoder
+	- Practice-it problems (linked to a book "How to write Java programs") http://practiceit.cs.washington.edu/
 
 ### Additional
 6. Manual for the Java Labs with industry-standard keys for each of them 
@@ -27,7 +34,7 @@
 7. CCS Session (pair programming with developers)
 	- FizzBuzzMix OOP kata in CyberDojo  
 	- US High School AP problem [Mountain Paths](http://nifty.stanford.edu/2016/franke-mountain-paths/assignmentSheets/Nifty_MountainPaths_FullAssignment.pdf)
-
+	
 
 ## Github Links 
 
