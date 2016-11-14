@@ -2,6 +2,7 @@
 
 1. ConceptMap  - "the lay of the land" using Mindmup and/or ConceptMap for the 5 units; similar to this [polymorphism topic map]
 2. Upfront **MCQ** - About 20-30 - aligned with intent to help them score well in assessments / final exams 
+	- The 20 **WHY** Challenge Questions for Java 
 
 3. Simplest Paint Application in Java - and run it through a Java Debugger
     - Equivalent of reading a good book
@@ -10,9 +11,8 @@
     - documentation printout
     - Refactor one or more of the github repos (links provided below) that are already existing 
 
-4. The 20 **WHY** Challenge Questions for Java 
 5. Core Java **REFCARDZ** - as a self-guided motivator to a Java IT career **@KGISL**
-6. 200+ Java assignments - on CloudCoder
+	- 200+ Java assignments - on CloudCoder
 
 ## Github links 
 
