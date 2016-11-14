@@ -1,20 +1,23 @@
-### Ideas for Orientation
+# Ideas for Orientation
 
+### Suggested Artifacts
 1. ConceptMap  - "the lay of the land" using Mindmup and/or ConceptMap for the 5 units; similar to this [polymorphism topic map]
 2. Upfront **MCQ** - About 20-30 - aligned with intent to help them score well in assessments / final exams 
 	- The 20 **WHY** Challenge Questions for Java 
 
 3. Simplest Paint Application in Java - and run it through a Java Debugger
-    - Equivalent of reading a good book
-    - Single step through the program in Java Debugger
-    - set up 3-4 line changes and how it impacts the functionality 
-    - documentation printout
+	- Show them how it all comes together!
     - Refactor one or more of the github repos (links provided below) that are already existing 
+    - code printout for them to have on person 
+    - Encourage them to read the "good book" and have clarifications
+    - Single step through the program in Java Debugger (read-along session)
+    - set up 3-4 line changes and how it impacts the functionality (_remix_ the story)
 
 5. Core Java **REFCARDZ** - as a self-guided motivator to a Java IT career **@KGISL**
+	- Complete the http://j.mp/rntJavaTDD problem (non-graphics Integrated artifact)
 	- 200+ Java assignments - on CloudCoder
 
-## Github links 
+## Github Links 
 
 To try online (both Java programs and Applets): http://www.browxy.com/
 
