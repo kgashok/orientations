@@ -2,6 +2,9 @@
 
 ### Suggested Artifacts
 1. Subject Glossary + ConceptMap  - "the lay of the land" using Mindmup and/or ConceptMap for the 5 units; similar to this [polymorphism topic map]
+	- Useful links to includ in the glossary 
+		- Demo and build Java programs/applets online - http://www.browxy.com/ or Cloud9? 
+		- How to become a better Java developer? http://j.mp/betterJava
 2. Upfront **MCQ** - About 20-30 - aligned with intent to help them score well in assessments / final exams 
 	- The 20 **WHY** Challenge Questions for Java 
 
@@ -34,7 +37,7 @@ We must track coding metrics - have every student at least complete 25-30 proble
 7. CCS Session (pair programming with developers)
 	- FizzBuzzMix OOP kata in CyberDojo  
 	- US High School AP problem [Mountain Paths](http://nifty.stanford.edu/2016/franke-mountain-paths/assignmentSheets/Nifty_MountainPaths_FullAssignment.pdf)
-	
+
 
 ### Github Links 
 
