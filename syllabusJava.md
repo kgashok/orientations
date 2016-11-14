@@ -1,6 +1,8 @@
 
 
 [TOC]
+To view Table of Contents, visit this [HTML](https://rawgit.com/kgashok/orientations/master/syllabusJava.html) version
+
 
 ## 1 CORE-7 : JAVA PROGRAMMING
 
