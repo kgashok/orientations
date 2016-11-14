@@ -1,6 +1,6 @@
 
 
-[TOC]
+[TOC]  
 To view Table of Contents, visit this [HTML](https://rawgit.com/kgashok/orientations/master/syllabusJava.html) version
 
 
