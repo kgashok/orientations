@@ -1,7 +1,7 @@
 ### Ideas for Orientation
 
 1. ConceptMap  - "the lay of the land" using Mindmup and/or ConceptMap for the 5 units 
-2. Upfront MCQ - About 20-30 - even if they get it wrong, it is okay 
+2. Upfront **MCQ** - About 20-30 - aligned with intent to help them score well in assessments / final exams 
 
 3. Simplest Paint Application in Java - and run it through a Java Debugger
     - Equivalent of reading a good book
