@@ -36,7 +36,7 @@ We must track coding metrics - have every student at least complete 25-30 proble
 	- US High School AP problem [Mountain Paths](http://nifty.stanford.edu/2016/franke-mountain-paths/assignmentSheets/Nifty_MountainPaths_FullAssignment.pdf)
 	
 
-## Github Links 
+### Github Links 
 
 To try online (both Java programs and Applets): http://www.browxy.com/
 
