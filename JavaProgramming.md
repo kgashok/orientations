@@ -1,6 +1,6 @@
 ### Ideas for Orientation
 
-1. ConceptMap  - "the lay of the land" using Mindmup and/or ConceptMap for the 5 units 
+1. ConceptMap  - "the lay of the land" using Mindmup and/or ConceptMap for the 5 units; similar to this [polymorphism topic map]
 2. Upfront **MCQ** - About 20-30 - aligned with intent to help them score well in assessments / final exams 
 
 3. Simplest Paint Application in Java - and run it through a Java Debugger
@@ -30,3 +30,7 @@ To try online (both Java programs and Applets): http://www.browxy.com/
 [Simple GUI]: https://github.com/TheMrNormalGuy/Simple-GUI
 [Univ Mini]: https://github.com/haxxorsid/Swing-Paint-Application
 [SaveAndLoad]: https://github.com/dovgreenwood/Paint
+
+[//]: # (Links to various sites which are referred to in this file)
+[polymorphism topic map]: (https://github.com/kgashok/orientations/blob/master/files/polymorphismMAP.pdf) 
+
