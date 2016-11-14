@@ -1,7 +1,7 @@
 
+To render the Table of Contents in Github, visit this [HTML](https://rawgit.com/kgashok/orientations/master/syllabusJava.html) version
 
-[TOC]  
-To view Table of Contents, visit this [HTML](https://rawgit.com/kgashok/orientations/master/syllabusJava.html) version
+[TOC]
 
 
 ## 1 CORE-7 : JAVA PROGRAMMING
