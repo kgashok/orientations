@@ -1,7 +1,7 @@
 # Ideas for Orientation
 
 ### Suggested Artifacts
-1. ConceptMap  - "the lay of the land" using Mindmup and/or ConceptMap for the 5 units; similar to this [polymorphism topic map]
+1. Subject Glossary + ConceptMap  - "the lay of the land" using Mindmup and/or ConceptMap for the 5 units; similar to this [polymorphism topic map]
 2. Upfront **MCQ** - About 20-30 - aligned with intent to help them score well in assessments / final exams 
 	- The 20 **WHY** Challenge Questions for Java 
 
@@ -19,6 +19,7 @@
 	- Complete the http://j.mp/rntJavaTDD problem (a non-graphical Integrated Artifact, can become full fledged with a *suitable* interface class )
 	- 200+ Java assignments - on CloudCoder
 
+### Additional
 6. Manual for the Java Labs with industry-standard keys for each of them 
 	- Viva Q&A to be agreed upon for each of the lab exercises - here's an [example](https://rawgit.com/kgashok/orientations/master/javaLab/CarTruckProblem.png)
 	- Run it like Continuous Assessment - amounting to 70% of the lab marks? 
