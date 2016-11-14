@@ -5,7 +5,7 @@
 |Day   | AM Session 1 | AM Session 2 | PMSession1 | PMSession2| 
 |:-----|:-------------|:-------------|:-----------|:----------|
 |Day 1 |Agenda review; MCQ|CC: Java PC-1 programming|JavaPaint 1 |Glossary and Map; Patterns 1 (RNT)|
-|Day 2 |JavaPaint 2 | PetSpeak, Patterns 2 (RNT-OOP)| WHY Questions; REFCARDZ by KGiSL| Java in the Cloud; Programming Challenges; Mobile Hackshop |
+|Day 2 |JavaPaint 2 | PetSpeak, Patterns 2 (RNT-OOP)| WHY Questions; REFCARDZ by KGiSL| Java in the Cloud; Programming Challenges; Mobile Hackshop; Java is #1 in ranking|
 
 
 ### Suggested Artifacts
@@ -13,6 +13,8 @@
 	- Useful links to includ in the glossary 
 		- Demo and build Java programs/applets online - http://www.browxy.com/ or Cloud9? 
 		- How to become a better Java developer? http://j.mp/betterJava
+		- Stackoverflow Questions - http://j.mp/hashmapJava
+
 2. Upfront **MCQ** - About 20-30 - aligned with intent to help them score well in assessments / final exams 
 	- The 20 **WHY** Challenge Questions for Java 
 
