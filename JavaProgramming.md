@@ -10,7 +10,7 @@
 
 ### Suggested Artifacts
 1. Subject Glossary + ConceptMap  - "the lay of the land" using Mindmup and/or ConceptMap for the 5 units; similar to this [polymorphism topic map]
-	- Useful links to includ in the glossary 
+	- Useful links to include in the glossary 
 		- Demo and build Java programs/applets online - http://www.browxy.com/ or Cloud9? 
 		- How to become a better Java developer? http://j.mp/betterJava
 		- Stackoverflow Questions - http://j.mp/hashmapJava
@@ -25,7 +25,7 @@
     - code printout for them to have on person 
     - Encourage them to read the "good book" and have clarifications
     - Single step through the program in Java Debugger (read-along session)
-		- use PythonTutor for smaller problems (video keys)
+		- use PythonTutor for smaller problems (video keys) - using for the **firstJava** program
 		- use GRASP to present graphical representation of the relationships
     - set up 3-4 line changes and how it impacts the functionality (_remix_ the story)
 
