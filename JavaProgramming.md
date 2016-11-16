@@ -4,8 +4,8 @@
 
 |Day   | AM Session 1 | AM Session 2 | PM Session1 | PM Session2| 
 |:-----|:-------------|:-------------|:-----------|:----------|
-|Day 1 |Agenda review; MCQ|CC: Java PC-1 programming|JVM; JavaPaint 1 |Glossary and Map; Patterns 1 (RNT)|
-|Day 2 |JavaPaint 2 | PetSpeak, Patterns 2 (RNT-OOP)| WHY Questions; REFCARDZ by KGiSL| Java in the Cloud; Programming Challenges; Mobile Hackshop; Java is #1 in ranking|
+|Day 1 |"Begin with the End in Mind"; Starting MCQ @Dhivyakgisl; Github account / Gitter room login - Say "Hello Java!" @62ramya |Let's write some Java code right away! The First Program Visualized in PythonTutor @kgashok; Right Triangle (Lab 2?) @62ramya;| The Course Overview - (Concept Map, Glossary required) @Dhivyakgisl ; Top 10 Concepts that every KGISL Java developer must know; [essential classes](https://docs.oracle.com/javase/tutorial/essential/index.html) i.e. exception handling and serialization (streams) @Dhivyakgisl | The REFCARDZ handout @Dhivyakgisl; The **PetSpeak** Series of CC challenges @rajasekaranap; |
+|Day 2|PaintJava - a Toy Program to inherit and extend @aBharathy; **Q&A** with Praveen of KITE (Smart City Hackathon Mobile Developer ) @62ramya;| The Java Applet Lab on the **Cloud9** @Sudharsanrajendran; The Habits of the Aspiring Java Programmer (including social coding @github); code everyday; with other developers; do it as a hobby @kgashok; PC-1 Java Pair Practice on CC and **Cloud9**;  | Video of KCover Product Presentation @Dhivyakgisl; The Technology Stack and where Java fits in @Dhivyakgisl; |  Ending **MCQ** @Dhivyakgisl; Enrolment for Java Mobile HackShop / Java KGISL CCS Sessions @62ramya; Discussions 
 
 
 ### Suggested Artifacts
@@ -52,6 +52,7 @@ We must track coding metrics - have every student at least complete 25-30 proble
 8. Android Mobile Workshop (@ KGISL Institute of Technology) happening in parallel
 	- Contact: Prof Rajasekaran (gitter: **@rajasekaranap**) 
 	- Those interested can sign up with him 
+	- Want to earn some pizza money by doing [javadoc] work? 
 
 ### Github Links 
 
@@ -74,5 +75,11 @@ To try online (both Java programs and Applets): http://www.browxy.com/
 [Univ Mini]: https://github.com/haxxorsid/Swing-Paint-Application
 [SaveAndLoad]: https://github.com/dovgreenwood/Paint
 [KGISL Java developers]: (https://github.com/kgashok/orientations/blob/master/files/Java_Kgisl.pdf)
+[javadoc]: https://newcircle.com/bookshelf/java_fundamentals_tutorial/javadoc
 
 
+### Defunct Agenda
+|Day   | AM Session 1 | AM Session 2 | PM Session1 | PM Session2| 
+|:-----|:-------------|:-------------|:-----------|:----------|
+|Day 1 |Agenda review; MCQ|CC: Java PC-1 programming|JVM; JavaPaint 1 |Glossary and Map; Patterns 1 (RNT)|
+|Day 2 |JavaPaint 2 | PetSpeak, Patterns 2 (RNT-OOP)| WHY Questions; REFCARDZ by KGiSL| Java in the Cloud; Programming Challenges; Mobile Hackshop; Java is #1 in ranking|
