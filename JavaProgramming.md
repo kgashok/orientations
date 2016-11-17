@@ -3,13 +3,13 @@
 ### Proposed Agenda 
 
 ####Intented Outcomes: 
- - Create a genuine interest to learn Java technology through exposure to Java developers / experts; gain confidence in learning Java programming skills
+ - Create a genuine interest to learn Java technology through exposure to Java developers / experts; gain confidence in learning Java programming skills; provide digital assets which will help in self-directed learning beyond the course
  - CONCEPTUAL - Course review; What's relevant and not so relevant? Deeper understanding of Why **Java Virtual Machine**? and Why **Collections** Framework? Inheritance and Interface (reinforced by CC PetSpeak exercises) 
  - EXPOSURE to Java Artifacts -  A **world-class** KGISL Java Enterprise Insurance Application used globally  - a Demo; KGISL development tools/environment; A Paint Java Application - to **inherit** and **extend**; A prize-winning Java Android Application demo by Praveen (KITE); REFCARDZ; 
  - PROGRAMMING -  First Program (visualized and single-stepped in PythonTutor); PC-1 Problem set for constructs; Right Numeric Triangle (RNT); how to become a good Java developer? Github and Open source and Gitter (WhatsApp for social coding); Java Lab on the Cloud; Excellent Online Tutorials  (http://j.mp/motherTutorial, http://j.mp/learningPathJava, http://j.mp/polyJava, http://j.mp/mapJava );
  -  Miscellaneous - MCQ; Mobile Hackshop @ KITE; KGISL CCS Java TDD Sessions
 
-
+#### Schedule 
 |Day   | AM Session 1 | AM Session 2 | PM Session1 | PM Session2| 
 |:-----|:-------------|:-------------|:-----------|:----------|
 |Day 1 |"Begin with the End in Mind"; Starting MCQ @Dhivyakgisl; Github account / Gitter room login - Say "Hello Java!"  @62ramya; The Java Applet Lab on the **Cloud** @Sudharsanrajendran;  |Let's write some Java code right away! The First Program Visualized in PythonTutor @kgashok; Right Triangle (Lab 2?) @62ramya; The REFCARDZ handout @Dhivyakgisl;| The Course Overview; Top 10 Concepts that every KGiSL Java developer must know; Why the **JVM**?; Why Collections framework?  @Dhivyakgisl | [essential classes](https://docs.oracle.com/javase/tutorial/essential/index.html) i.e. exception handling and serialization (streams);  The **PetSpeak** Series of CC challenges @rajasekaranap |
