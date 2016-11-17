@@ -2,10 +2,18 @@
 
 ### Proposed Agenda 
 
+####Intented Outcomes: 
+ - Create a genuine interest to learn Java technology through exposure to Java developers / experts; gain confidence in learning Java programming skills
+ - CONCEPTUAL - Course review; What's relevant and not so relevant? Deeper understanding of Why **Java Virtual Machine**? and Why **Collections** Framework? Inheritance and Interface (reinforced by PetSpeak series) 
+ - EXPOSURE to Java Artifacts -  A Paint Java Application - to **inherit** and **extend**; A **world-class** KGISL Java Enterprise Insurance Application used globally  - a Demo; A prize-winning Java Android Application demo by Praveen (KITE); REFCARDZ; 
+ - PROGRAMMING - programming practice - First Program (visualized); PC-1 Problem set for constructs practice; Right Numeric Triangle (RNT); how to become a good Java developer? Github and Open source and Gitter (WhatsApp for social coding); Java Lab on the Cloud; Excellent Online Tutorials  (http://j.mp/motherTutorial, http://j.mp/learningPathJava, http://j.mp/polyJava, http://j.mp/mapJava );
+ -  Miscellaneous - Mobile Hackshop @ KITE; KGISL CCS Java TDD Sessions
+
+
 |Day   | AM Session 1 | AM Session 2 | PM Session1 | PM Session2| 
 |:-----|:-------------|:-------------|:-----------|:----------|
 |Day 1 |"Begin with the End in Mind"; Starting MCQ @Dhivyakgisl; Github account / Gitter room login - Say "Hello Java!" @62ramya |Let's write some Java code right away! The First Program Visualized in PythonTutor @kgashok; Right Triangle (Lab 2?) @62ramya;| The Course Overview - (Concept Map, Glossary required); Top 10 Concepts that every KGISL Java developer must know; [essential classes](https://docs.oracle.com/javase/tutorial/essential/index.html) i.e. exception handling and serialization (streams) @Dhivyakgisl | The REFCARDZ handout @Dhivyakgisl; The **PetSpeak** Series of CC challenges @rajasekaranap;  |
-|Day 2|What is the **JVM**?; PaintJava - a Toy Program to inherit and extend @aBharathy; | The Java Applet Lab on the **Cloud9** @Sudharsanrajendran; The Habits of the Aspiring Java Programmer (including social coding @github); code everyday; with other developers; do it as a hobby @kgashok; PC-1 Java Pair Practice on CC and **Cloud9**;  | Video of KCover Product Presentation @Dhivyakgisl; The Technology Stack and where Java fits in @Dhivyakgisl; **Q&A** with Praveen of KITE (Smart City Hackathon Mobile Developer ) @62ramya;|  Ending **MCQ** @Dhivyakgisl; Enrolment for Java Mobile HackShop / Java KGISL CCS Sessions @62ramya; Discussions |
+|Day 2|What is the **JVM**?; PaintJava - a Toy Program to inherit and extend @aBharathy; | The Java Applet Lab on the **Cloud** @Sudharsanrajendran; The Habits of the Aspiring Java Programmer (including social coding @github); code everyday; with other developers; do it as a hobby @kgashok; PC-1 Java Pair Practice on CC and the **Cloud**; http://javaconceptoftheday.com/ | Video of KCover Product Presentation @Dhivyakgisl; The Technology Stack and where Java fits in @Dhivyakgisl; **Q&A** with Praveen of KITE (Smart City Hackathon Mobile Developer ) @62ramya;|  Ending **MCQ** @Dhivyakgisl; Enrolment for Java Mobile HackShop / Java KGISL CCS Sessions @62ramya; Discussions |
 
 
 ### Suggested Artifacts
@@ -66,6 +74,7 @@ To try online (both Java programs and Applets): http://www.browxy.com/
 |Professional Paint| http://juliushuelsmann.github.io/paint/ |
 |Single Page Application| http://math.hws.edu/eck/cs124/javanotes6/source/SimplePaint.java |
 |[Univ Mini] | https://github.com/haxxorsid/Swing-Paint-Application was submitted as a mini project for an University paper |
+|Rajasekaran's Paint| https://github.com/rajasekaranap/Java-Swing-Paint | 
 
 [//]: # (Links to various sites which are referred to in this file)
 
