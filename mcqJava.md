@@ -9,8 +9,10 @@ _Questions first, answers next, and then learning follows!_
    - True or False? 
 3. In Java, the Java Virtual Machine (JVM) is very similar in functionality to the C++ linker. The executable code loads and runs directly in the RAM. 
    - True or False?
-4. In Java, everything is **pass by value**. Just like in C language (note _not_ C++). 
+4. In Java, everything is **pass by value**. Just like in the C language (note _not_ C++). 
 	- True or False?
 5. In Java, machine code is generated JIT from bytecode. It is therefore slower compared to C/C++. 
+	- True or False? 
+6. The Java language (JVM and SDK) are developed in Java itself. Just like C++ is built using the C language. 
 	- True or False? 
 
