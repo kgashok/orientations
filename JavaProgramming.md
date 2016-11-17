@@ -4,10 +4,10 @@
 
 ####Intented Outcomes: 
  - Create a genuine interest to learn Java technology through exposure to Java developers / experts; gain confidence in learning Java programming skills
- - CONCEPTUAL - Course review; What's relevant and not so relevant? Deeper understanding of Why **Java Virtual Machine**? and Why **Collections** Framework? Inheritance and Interface (reinforced by PetSpeak series) 
- - EXPOSURE to Java Artifacts -  A Paint Java Application - to **inherit** and **extend**; A **world-class** KGISL Java Enterprise Insurance Application used globally  - a Demo; A prize-winning Java Android Application demo by Praveen (KITE); REFCARDZ; 
- - PROGRAMMING - programming practice - First Program (visualized); PC-1 Problem set for constructs practice; Right Numeric Triangle (RNT); how to become a good Java developer? Github and Open source and Gitter (WhatsApp for social coding); Java Lab on the Cloud; Excellent Online Tutorials  (http://j.mp/motherTutorial, http://j.mp/learningPathJava, http://j.mp/polyJava, http://j.mp/mapJava );
- -  Miscellaneous - Mobile Hackshop @ KITE; KGISL CCS Java TDD Sessions
+ - CONCEPTUAL - Course review; What's relevant and not so relevant? Deeper understanding of Why **Java Virtual Machine**? and Why **Collections** Framework? Inheritance and Interface (reinforced by CC PetSpeak exercises) 
+ - EXPOSURE to Java Artifacts -  A **world-class** KGISL Java Enterprise Insurance Application used globally  - a Demo; A Paint Java Application - to **inherit** and **extend**; A prize-winning Java Android Application demo by Praveen (KITE); REFCARDZ; 
+ - PROGRAMMING -  First Program (visualized and single-stepped in PythonTutor); PC-1 Problem set for constructs; Right Numeric Triangle (RNT); how to become a good Java developer? Github and Open source and Gitter (WhatsApp for social coding); Java Lab on the Cloud; Excellent Online Tutorials  (http://j.mp/motherTutorial, http://j.mp/learningPathJava, http://j.mp/polyJava, http://j.mp/mapJava );
+ -  Miscellaneous - MCQ; Mobile Hackshop @ KITE; KGISL CCS Java TDD Sessions
 
 
 |Day   | AM Session 1 | AM Session 2 | PM Session1 | PM Session2| 
@@ -85,10 +85,3 @@ To try online (both Java programs and Applets): http://www.browxy.com/
 [SaveAndLoad]: https://github.com/dovgreenwood/Paint
 [KGISL Java developers]: (https://github.com/kgashok/orientations/blob/master/files/Java_Kgisl.pdf)
 [javadoc]: https://newcircle.com/bookshelf/java_fundamentals_tutorial/javadoc
-
-
-### Legacy 
-|Day   | AM Session 1 | AM Session 2 | PM Session1 | PM Session2| 
-|:-----|:-------------|:-------------|:-----------|:----------|
-|Day 1 |Agenda review; MCQ|CC: Java PC-1 programming|JVM; JavaPaint 1 |Glossary and Map; Patterns 1 (RNT)|
-|Day 2 |JavaPaint 2 | PetSpeak, Patterns 2 (RNT-OOP)| WHY Questions; REFCARDZ by KGiSL| Java in the Cloud; Programming Challenges; Mobile Hackshop; Java is #1 in ranking|
