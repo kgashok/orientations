@@ -301,7 +301,7 @@ int i=0,j=2,k;
 for(i=1;i<=4;i++)
 {
 k=i*j;
-System.out.println("From thread A:"+i+"""+j+"="+k);
+System.out.println("From thread A:"+i+"*"+j+"="+k);
 }
 
 System.out.println("Exit fromA");
@@ -326,7 +326,7 @@ for(a=1;a<=4;a++)
 
 c=a*b;
 
-System.out.println("From thread B: "+a+"""+b+"="+c);
+System.out.println("From thread B: "+a+"*"+b+"="+c);
 
 }
 
@@ -352,7 +352,7 @@ for(x=1;x<=4;x++)
 
 z=x*y;
 
-System.out.println("From thread C:"+x+"""+y+"="+z);
+System.out.println("From thread C:"+x+"*"+y+"="+z);
 
 }
 
