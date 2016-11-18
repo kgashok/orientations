@@ -1,6 +1,9 @@
-**JAVA LAB MANUAL**
+#JAVA LAB MANUAL
 
-**Ex.No:1 Write a Java Applications to extract a portion of a character string and print the extracted string.**
+[TOC]
+
+
+##Ex.No:1 Write a Java Applications to extract a portion of a character string and print the extracted string.**
 ```java
 import java.io.*";
 
@@ -65,7 +68,7 @@ The Substring is         : Java
 
 
 
-**Ex.No:2 Write a Java Program to implement the concept of multiple inheritance using Interfaces.**
+##Ex.No:2 Write a Java Program to implement the concept of multiple inheritance using Interfaces.**
 ```java
 import java.io.*";
 
@@ -187,22 +190,23 @@ Stud.display();
 
 }
 ```
-**COMMAND TO EXECUTE:**
+###COMMAND TO EXECUTE:**
 
 c:\Program Files\Java\JDK17~1.0\_0\bin&gt;javac  MultipleInheritance.java
 
 c:\Program Files\Java\JDK17~1.0\_0\bin&gt;java  MultipleInheritance
 
-**OUTPUT:**
+###OUTPUT:
 
+```
 Interface using multiple inheritance
 
 Area of rectangle=20000.0
 
 Area of circle=314.0
+```
 
-
-**Ex.No:3 Write a Java Program to create an Exception called payout-of-bounds and throw the exception**.
+##Ex.No:3 Write a Java Program to create an Exception called payout-of-bounds and throw the exception**.
 ```java
 import java.io.*";
 
@@ -285,7 +289,7 @@ Enter the amount lesser than 1000-10000
 5000 Correct amount entered
 
 
-**Ex.No:4 Write a Java Program to implement the concept of multithreading with the use of any three multiplication tables and assign three different priorities to them.**
+##Ex.No:4 Write a Java Program to implement the concept of multithreading with the use of any three multiplication tables and assign three different priorities to them.**
 ```java
 import java.io.*";
 
@@ -410,43 +414,28 @@ D:\Program Files (x86)\Java\jdk1.7.0\_01\bin&gt;javac ThreadTest.java
 
 D:\Program Files (x86)\Java\jdk1.7.0\_01\bin&gt;java ThreadTest
 
-**OUTPUT:**
+###OUTPUT:
 
+```
 start thread A
-
 start thread B
-
 From thread A:1*2=2
-
 start thread c
-
 From thread B: 1*3=3
-
 From thread A:2*2=4
-
 From thread A:3*2=6
-
 From thread B: 2*3=6
-
 From thread A:4*2=8
-
 Exit fromA
-
 From thread C:1*5=5
-
 From thread C:2*5=10
-
 From thread B: 3*3=9
-
 From thread C:3*5=15
-
 From thread B: 4*3=12
-
 From thread C:4*5=20
-
 Exit from B
-
 Exit from C
+```
 
 
 
@@ -455,8 +444,7 @@ Exit from C
 
 
 
-
-**Ex no:5 Write a Java Program to draw several shapes in the created windows.**
+##Ex no:5 Write a Java Program to draw several shapes in the created windows.**
 ```java
 import java.awt.*";
 
@@ -512,14 +500,14 @@ c:\Program Files\Java\jdk1.7.0\_01\bin&gt;javac shapes.java
 
 c:\Program Files\Java\jdk1.7.0\_01\bin&gt;appletviewer shapes.java
 
-**OUTPUT:**
+##OUTPUT:
 
 ![Output](../img/ex5.png)
 
 
  
  
-**Ex.No:6 Write a Java Program to create a frame with four text fields name, street, city and pin code with suitable tables. Also add a button called ?my details?,**
+##Ex.No:6 Write a Java Program to create a frame with four text fields name, street, city and pin code with suitable tables. Also add a button called "my details"
 
 **When the button is clicked its corresponding values are to be appeared in the text fields**
 ```java
@@ -643,7 +631,7 @@ Note: Recompile with -Xlint:deprecation for details.
 
 c:\Program Files\Java\jdk1.7.0\_01\bin < java Buttonclick
 
-**OUTPUT:**
+##OUTPUT:
 
 ![Output](../img/ex6.png)
 
