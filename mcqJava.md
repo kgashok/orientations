@@ -15,4 +15,7 @@ _Questions first, answers next, and then learning follows!_
 	- True or False? 
 6. The Java language (JVM and SDK) are developed in Java itself. Just like C++ is built using the C language. 
 	- True or False? 
+7. In Java, `1/0 == 1.0/0.0`. Just like in C/C++. 
+	8. True or False? 
+
 
