@@ -1,0 +1,1253 @@
+<h1 id="java-lab-manual">JAVA LAB MANUAL</h1>
+
+<p>[TOC] <br>
+Refer to the HTML version for the table of contents <a href="">here</a></p>
+
+<h2 id="exno1-write-a-java-applications-to-extract-a-portion-of-a-character-string-and-print-the-extracted-string">Ex.No:1 Write a Java Applications to extract a portion of a character string and print the extracted string.**</h2>
+
+
+
+<pre class="prettyprint"><code class="language-java hljs "><span class="hljs-keyword">import</span> java.io.*<span class="hljs-string">";
+
+import java.util.Scanner;
+
+public class ExtractString
+
+{
+
+ public static void main(String args[])
+
+  {
+
+    String str,substr;
+
+    int idx1,idx2;
+
+    Scanner in = new Scanner (System.in);
+
+    System.out.println("</span>Enter the String : <span class="hljs-string">");
+
+    str=in.next();
+
+    System.out.println("</span>Enter the index <span class="hljs-number">1</span> : <span class="hljs-string">");
+
+    idx1 = in.nextInt();
+
+    System.out.println("</span>Enter the index <span class="hljs-number">2</span> : <span class="hljs-string">");
+
+    idx2 = in.nextInt();
+
+    substr=str.substring(idx1,idx2);
+
+    System.out.println("</span>The Substring is : <span class="hljs-string">" + substr);
+
+  }
+
+}</span></code></pre>
+
+<p><strong>COMMAND TO EXECUTE:</strong></p>
+
+<p>c:\Program Files\java\jdk1.7.0_01\bin&gt;javac  ExtractString.java</p>
+
+<p>c:\Program Files\java\jdk1.7.0_01\bin&gt;java  ExtractString</p>
+
+<p><strong>OUTPUT:</strong></p>
+
+<p>Enter the string                :</p>
+
+<p>JavaProgramming</p>
+
+<p>Enter the index1        :</p>
+
+<p>0</p>
+
+<p>Enter the index2        :</p>
+
+<p>4</p>
+
+<p>The Substring is         : Java</p>
+
+
+
+<h2 id="exno2-write-a-java-program-to-implement-the-concept-of-multiple-inheritance-using-interfaces">Ex.No:2 Write a Java Program to implement the concept of multiple inheritance using Interfaces.**</h2>
+
+
+
+<pre class="prettyprint"><code class="language-java hljs "><span class="hljs-keyword">import</span> java.io.*<span class="hljs-string">";
+
+class student
+
+{
+
+int rno;
+
+String name="</span>Smith<span class="hljs-string">";
+
+void getno(int n)
+
+{
+
+rno=n;
+
+}
+
+void Putrno()
+
+{
+
+System.out.println("</span>Rno:<span class="hljs-string">"+rno);
+
+System.out.println("</span>Name:<span class="hljs-string">"+name);
+
+}
+
+}
+
+class test extends student
+
+{
+
+int mark1,mark2;
+
+void getmarks(int m1,int m2)
+
+{
+
+mark1=m1;
+
+mark2=m2;
+
+}
+
+public void Putmarks()
+
+{
+
+System.out.println("</span>Mark1:<span class="hljs-string">"+mark1);
+
+System.out.println("</span>Mark2:<span class="hljs-string">"+mark2);
+
+}
+
+}
+
+interface Sports
+
+{
+
+int Sportsmark=75;
+
+void Putmarks();
+
+}
+
+class result extends test implements Sports
+
+{
+
+int total;
+
+public void putmarks()
+
+{
+
+System.out.println("</span>Sportmark=<span class="hljs-string">"+Sportsmark);
+
+}
+
+void display()
+
+{
+
+total=mark1+mark2+Sportsmark;
+
+Putrno();
+
+Putmarks();
+
+putmarks();
+
+System.out.println("</span>Total marks:<span class="hljs-string">"+total);
+
+}
+
+}
+
+class MultipleInheritance
+
+{
+
+public static void main (String args[])
+
+{
+
+result Stud = new result();
+
+Stud.getno(1000);
+
+Stud.getmarks(75,100);
+
+Stud.display();
+
+}
+
+}</span></code></pre>
+
+
+
+<h3 id="command-to-execute">COMMAND TO EXECUTE:**</h3>
+
+<p>c:\Program Files\Java\JDK17~1.0_0\bin&gt;javac  MultipleInheritance.java</p>
+
+<p>c:\Program Files\Java\JDK17~1.0_0\bin&gt;java  MultipleInheritance</p>
+
+
+
+<h3 id="output">OUTPUT:</h3>
+
+
+
+<pre class="prettyprint"><code class=" hljs vbnet"><span class="hljs-keyword">Interface</span> <span class="hljs-keyword">using</span> multiple inheritance
+
+Area <span class="hljs-keyword">of</span> rectangle=<span class="hljs-number">20000.0</span>
+
+Area <span class="hljs-keyword">of</span> circle=<span class="hljs-number">314.0</span></code></pre>
+
+
+
+<h2 id="exno3-write-a-java-program-to-create-an-exception-called-payout-of-bounds-and-throw-the-exception">Ex.No:3 Write a Java Program to create an Exception called payout-of-bounds and throw the exception**.</h2>
+
+
+
+<pre class="prettyprint"><code class="language-java hljs "><span class="hljs-keyword">import</span> java.io.*<span class="hljs-string">";
+
+import java.lang.*"</span>;
+
+class ExceptionClass
+
+{
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(String args[])<span class="hljs-keyword">throws</span> IOException
+
+{
+
+<span class="hljs-keyword">int</span> payamt;
+
+DataInputStream in=<span class="hljs-keyword">new</span> DataInputStream(System.in);
+
+System.out.println(<span class="hljs-string">"\n\npay out of bound exception"</span>);
+
+System.out.println(<span class="hljs-string">"* * *"</span>);
+
+System.out.println(<span class="hljs-string">"\n enter a basic pay amount"</span>);
+
+payamt =Integer.parseInt(in.readLine());
+
+<span class="hljs-keyword">try</span>
+
+{
+
+<span class="hljs-keyword">if</span>(payamt&amp;gt;<span class="hljs-number">1000</span>)
+
+<span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> payoutofBoundException(<span class="hljs-string">"Basic pay is out of bound"</span>);
+
+<span class="hljs-keyword">else</span>
+
+System.out.println(<span class="hljs-string">"\n given basic pay is:"</span>+payamt);
+
+}
+
+<span class="hljs-keyword">catch</span>(Exception e)
+
+{
+
+System.out.println(<span class="hljs-string">"caught:"</span>+e);
+
+}
+
+}
+
+}
+
+class payoutofBoundException extends IOException
+
+{
+
+<span class="hljs-comment">//String s;</span>
+
+payoutofBoundException(String message)
+
+{
+
+<span class="hljs-comment">// s=message;</span>
+
+ System.out.println(message);
+
+}
+
+}</code></pre>
+
+<p><strong>COMMAND TO EXECUTE:</strong></p>
+
+<p>c:\Program Files\Java\JDK17~1.0_0\bin&gt;javac PayOutOfBoundExceptionMain.java</p>
+
+<p>c:\Program Files\Java\JDK17~1.0_0\bin&gt;java PayOutOfBoundExceptionMain</p>
+
+<p><strong>OUTPUT:</strong></p>
+
+<p>Enter the amount lesser than 1000-10000</p>
+
+<p>5000 Correct amount entered</p>
+
+
+
+<h2 id="exno4-write-a-java-program-to-implement-the-concept-of-multithreading-with-the-use-of-any-three-multiplication-tables-and-assign-three-different-priorities-to-them">Ex.No:4 Write a Java Program to implement the concept of multithreading with the use of any three multiplication tables and assign three different priorities to them.**</h2>
+
+
+
+<pre class="prettyprint"><code class="language-java hljs "><span class="hljs-keyword">import</span> java.io.*<span class="hljs-string">";
+
+import java.lang.Thread;
+
+class A extends Thread
+
+{
+
+public void run()
+{
+int i=0,j=2,k;
+for(i=1;i&lt;=4;i++)
+{
+k=i*j;
+System.out.println("</span>From thread A:<span class="hljs-string">"+i+"</span>*<span class="hljs-string">"+j+"</span>=<span class="hljs-string">"+k);
+}
+
+System.out.println("</span>Exit fromA<span class="hljs-string">");
+
+}
+
+}
+
+class B extends Thread
+
+{
+
+public void run()
+
+{
+
+int a,b=3,c;
+
+for(a=1;a&lt;=4;a++)
+
+{
+
+c=a*b;
+
+System.out.println("</span>From thread B: <span class="hljs-string">"+a+"</span>*<span class="hljs-string">"+b+"</span>=<span class="hljs-string">"+c);
+
+}
+
+System.out.println("</span>Exit from B<span class="hljs-string">");
+
+}
+
+}
+
+class C extends Thread
+
+{
+
+public void run()
+
+{
+
+int x,y=5,z;
+
+for(x=1;x&lt;=4;x++)
+
+{
+
+z=x*y;
+
+System.out.println("</span>From thread C:<span class="hljs-string">"+x+"</span>*<span class="hljs-string">"+y+"</span>=<span class="hljs-string">"+z);
+
+}
+
+System.out.println("</span>Exit from C<span class="hljs-string">");
+
+}
+
+}
+
+class ThreadTest
+
+{
+
+public static void main(String args[])
+
+{
+
+int x=0;
+
+A threadA=new A();
+
+B threadB=new B();
+
+C threadC=new C();
+
+threadC.setPriority(Thread.MAX\_PRIORITY);
+
+threadB.setPriority(threadA.getPriority()+x);
+
+threadC.setPriority(Thread.MIN\_PRIORITY);
+
+threadB.setPriority(threadA.getPriority()+x);
+
+threadC.setPriority(Thread.MIN\_PRIORITY);
+
+System.out.println("</span>start thread A<span class="hljs-string">");
+
+threadA.start();
+
+System.out.println("</span>start thread B<span class="hljs-string">");
+
+threadB.start();
+
+System.out.println("</span>start thread c<span class="hljs-string">");
+
+threadC.start();
+
+}
+
+}</span></code></pre>
+
+<p><strong>COMMAND TO EXECUTE:</strong></p>
+
+<p>D:\Program Files (x86)\Java\jdk1.7.0_01\bin&gt;javac ThreadTest.java</p>
+
+<p>D:\Program Files (x86)\Java\jdk1.7.0_01\bin&gt;java ThreadTest</p>
+
+
+
+<h3 id="output-1">OUTPUT:</h3>
+
+
+
+<pre class="prettyprint"><code class=" hljs sql"><span class="hljs-operator"><span class="hljs-keyword">start</span> thread A
+<span class="hljs-keyword">start</span> thread B
+<span class="hljs-keyword">From</span> thread A:<span class="hljs-number">1</span>*<span class="hljs-number">2</span>=<span class="hljs-number">2</span>
+<span class="hljs-keyword">start</span> thread c
+<span class="hljs-keyword">From</span> thread B: <span class="hljs-number">1</span>*<span class="hljs-number">3</span>=<span class="hljs-number">3</span>
+<span class="hljs-keyword">From</span> thread A:<span class="hljs-number">2</span>*<span class="hljs-number">2</span>=<span class="hljs-number">4</span>
+<span class="hljs-keyword">From</span> thread A:<span class="hljs-number">3</span>*<span class="hljs-number">2</span>=<span class="hljs-number">6</span>
+<span class="hljs-keyword">From</span> thread B: <span class="hljs-number">2</span>*<span class="hljs-number">3</span>=<span class="hljs-number">6</span>
+<span class="hljs-keyword">From</span> thread A:<span class="hljs-number">4</span>*<span class="hljs-number">2</span>=<span class="hljs-number">8</span>
+Exit fromA
+<span class="hljs-keyword">From</span> thread C:<span class="hljs-number">1</span>*<span class="hljs-number">5</span>=<span class="hljs-number">5</span>
+<span class="hljs-keyword">From</span> thread C:<span class="hljs-number">2</span>*<span class="hljs-number">5</span>=<span class="hljs-number">10</span>
+<span class="hljs-keyword">From</span> thread B: <span class="hljs-number">3</span>*<span class="hljs-number">3</span>=<span class="hljs-number">9</span>
+<span class="hljs-keyword">From</span> thread C:<span class="hljs-number">3</span>*<span class="hljs-number">5</span>=<span class="hljs-number">15</span>
+<span class="hljs-keyword">From</span> thread B: <span class="hljs-number">4</span>*<span class="hljs-number">3</span>=<span class="hljs-number">12</span>
+<span class="hljs-keyword">From</span> thread C:<span class="hljs-number">4</span>*<span class="hljs-number">5</span>=<span class="hljs-number">20</span>
+Exit <span class="hljs-keyword">from</span> B
+Exit <span class="hljs-keyword">from</span> C</span></code></pre>
+
+
+
+<h2 id="ex-no5-write-a-java-program-to-draw-several-shapes-in-the-created-windows">Ex no:5 Write a Java Program to draw several shapes in the created windows.**</h2>
+
+
+
+<pre class="prettyprint"><code class="language-java hljs "><span class="hljs-keyword">import</span> java.awt.*<span class="hljs-string">";
+
+import java.applet.*"</span>;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">shapes</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Applet</span>
+
+{</span>
+
+<span class="hljs-keyword">int</span> x1[]={<span class="hljs-number">60</span>,<span class="hljs-number">240</span>,<span class="hljs-number">440</span>,<span class="hljs-number">40</span>};
+
+<span class="hljs-keyword">int</span> y1[]={<span class="hljs-number">60</span>,<span class="hljs-number">240</span>,<span class="hljs-number">40</span>,<span class="hljs-number">40</span>};
+
+<span class="hljs-keyword">int</span>  n1=<span class="hljs-number">4</span>;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">paint</span>(Graphics g)
+
+{
+
+g.drawPolygon(x1,y1,n1);
+
+g.drawLine(<span class="hljs-number">20</span>,<span class="hljs-number">20</span>,<span class="hljs-number">160</span>,<span class="hljs-number">280</span>);
+
+g.drawRect(<span class="hljs-number">300</span>,<span class="hljs-number">200</span>,<span class="hljs-number">160</span>,<span class="hljs-number">280</span>);
+
+g.fillRect(<span class="hljs-number">200</span>,<span class="hljs-number">200</span>,<span class="hljs-number">80</span>,<span class="hljs-number">40</span>);
+
+g.fillRoundRect(<span class="hljs-number">40</span>,<span class="hljs-number">320</span>,<span class="hljs-number">20</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+
+g.drawRoundRect(<span class="hljs-number">20</span>,<span class="hljs-number">300</span>,<span class="hljs-number">160</span>,<span class="hljs-number">100</span>,<span class="hljs-number">20</span>,<span class="hljs-number">20</span>);
+
+g.drawOval(<span class="hljs-number">550</span>,<span class="hljs-number">400</span>,<span class="hljs-number">100</span>,<span class="hljs-number">40</span>);
+
+}
+
+}</code></pre>
+
+<p>/”&lt;html&gt;</p>
+
+<p>&lt;head&gt;</p>
+
+<p>&lt;applet code=”shapes”,height=400 width=400&gt;</p>
+
+<p>&lt;/applet&gt;</p>
+
+<p>&lt;/head&gt;</p>
+
+<p>&lt;/html&gt;”/</p>
+
+<p><strong>COMMAND TO EXECUTE:</strong></p>
+
+<p>c:\Program Files\Java\jdk1.7.0_01\bin&gt;javac shapes.java</p>
+
+<p>c:\Program Files\Java\jdk1.7.0_01\bin&gt;appletviewer shapes.java</p>
+
+
+
+<h2 id="output-2">OUTPUT:</h2>
+
+<p><img src="../img/ex5.png" alt="Output" title=""></p>
+
+
+
+<h2 id="exno6-write-a-java-program-to-create-a-frame-with-four-text-fields-name-street-city-and-pin-code-with-suitable-tables-also-add-a-button-called-my-details">Ex.No:6 Write a Java Program to create a frame with four text fields name, street, city and pin code with suitable tables. Also add a button called “my details”</h2>
+
+<p><strong>When the button is clicked its corresponding values are to be appeared in the text fields</strong></p>
+
+
+
+<pre class="prettyprint"><code class="language-java hljs "><span class="hljs-keyword">import</span> java.awt.*<span class="hljs-string">";
+
+import java.awt.event.*"</span>;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ButtonClick</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Frame</span> <span class="hljs-keyword">implements</span>
+
+<span class="hljs-title">ActionListener</span>
+
+{</span>
+
+TextField t1,t2,t3,t4;
+
+Label l1,l2,l3,l4;
+
+Button b1;
+
+Buttonclick()
+
+{
+
+setLayout(<span class="hljs-keyword">new</span> GridLayout(<span class="hljs-number">4</span>,<span class="hljs-number">2</span>));
+
+t1=<span class="hljs-keyword">new</span> TextField(<span class="hljs-number">30</span>);
+
+t2=<span class="hljs-keyword">new</span> TextField(<span class="hljs-number">30</span>);
+
+t3=<span class="hljs-keyword">new</span> TextField(<span class="hljs-number">30</span>);
+
+t4=<span class="hljs-keyword">new</span> TextField(<span class="hljs-number">30</span>);
+
+l1=<span class="hljs-keyword">new</span> Label(<span class="hljs-string">"name:"</span>,Label.LEFT);
+
+l2=<span class="hljs-keyword">new</span> Label(<span class="hljs-string">"street:"</span>,Label.LEFT);
+
+l3=<span class="hljs-keyword">new</span> Label(<span class="hljs-string">"city:"</span>,Label.LEFT);
+
+l4=<span class="hljs-keyword">new</span> Label(<span class="hljs-string">"place:"</span>,Label.LEFT);
+
+b1=<span class="hljs-keyword">new</span> Button(<span class="hljs-string">"my details"</span>);
+
+add(l1);
+
+add(t1);
+
+add(l2);
+
+add(t2);
+
+add(l3);
+
+add(t3);
+
+add(l4);
+
+add(t4);
+
+setLayout(<span class="hljs-keyword">new</span> FlowLayout(FlowLayout.CENTER));
+
+b1.addActionListener (<span class="hljs-keyword">this</span>);
+
+add(b1);
+
+}
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">actionPerformed</span>(ActionEvent ae)
+
+{
+
+<span class="hljs-keyword">if</span>(ae.getSource()==b1)
+
+{
+
+t1.setText(<span class="hljs-string">"Vivek Sabu"</span>);
+
+t2.setText(<span class="hljs-string">"Nehru Nagar"</span>);
+
+t3.setText(<span class="hljs-string">"Texas City"</span>);
+
+t4.setText(<span class="hljs-string">"20"</span>);
+
+}
+
+}
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(String arg[])
+
+{
+
+Buttonclick m= <span class="hljs-keyword">new</span> Buttonclick();
+
+m.setSize(<span class="hljs-number">600</span>,<span class="hljs-number">300</span>);
+
+m.addWindowListener(<span class="hljs-keyword">new</span> WindowAdapter(){
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">windowClosing</span>(WindowEvent e)
+
+{
+
+System.exit(<span class="hljs-number">0</span>);
+
+}
+
+});
+
+m.show();
+
+}
+
+}</code></pre>
+
+<p><strong>COMMAND TO EXECUTE:</strong></p>
+
+<p>c:\Program Files\Java\jdk1.7.0_01\bin &lt; javac Buttonclick.java</p>
+
+<p>Note: Buttonclick.java uses or overrides a deprecated API.</p>
+
+<p>Note: Recompile with -Xlint:deprecation for details.</p>
+
+<p>c:\Program Files\Java\jdk1.7.0_01\bin &lt; java Buttonclick</p>
+
+
+
+<h2 id="output-3">OUTPUT:</h2>
+
+<p><img src="../img/ex6.png" alt="Output" title=""></p>
+
+<p><strong>Ex.no:7 Write a Java Program to demonstrate the Multiple Selection List-box.</strong></p>
+
+
+
+<pre class="prettyprint"><code class="language-java hljs "><span class="hljs-keyword">import</span> java.applet.Applet;
+
+<span class="hljs-keyword">import</span> java.awt.*<span class="hljs-string">";
+
+import java.awt.event.*"</span>;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MultipleSelectionList</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Applet</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">ActionListener</span>
+
+{</span>
+
+List list1;
+
+TextField Text1;
+
+Button butt;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">init</span>()
+
+{
+
+Text1=<span class="hljs-keyword">new</span> TextField(<span class="hljs-number">40</span>);
+
+add(Text1);
+
+list1=<span class="hljs-keyword">new</span> List(<span class="hljs-number">3</span>,<span class="hljs-keyword">true</span>);
+
+list1.add(<span class="hljs-string">"Windows NT"</span>);
+
+list1.add(<span class="hljs-string">"Windows Vista"</span>);
+
+list1.add(<span class="hljs-string">"Windows XP"</span>);
+
+list1.add(<span class="hljs-string">"LINUX"</span>);
+
+list1.add(<span class="hljs-string">"UNIX"</span>);
+
+list1.add(<span class="hljs-string">"Xenix"</span>);
+
+add(list1);
+
+butt=<span class="hljs-keyword">new</span> Button(<span class="hljs-string">"Show Selection"</span>);
+
+butt.addActionListener(<span class="hljs-keyword">this</span>);
+
+add(butt);
+
+}
+
+String Selections[];
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">actionPerformed</span>(ActionEvent e)
+
+{
+
+String outstring=<span class="hljs-keyword">new</span> String(<span class="hljs-string">"you selected"</span>);
+
+<span class="hljs-keyword">if</span>(e.getSource()==butt)
+
+{
+
+Text1.setText(<span class="hljs-string">""</span>);
+
+Selections=list1.getSelectedItems();
+
+<span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> loopIndex=<span class="hljs-number">0</span>;loopIndex&lt;Selections.length;loopIndex++)
+
+{
+
+outstring+=<span class="hljs-string">" "</span>+Selections[loopIndex];
+
+}
+
+Text1.setText(outstring);
+
+}
+
+}
+
+}</code></pre>
+
+<p>&lt;html&gt;</p>
+
+<p>&lt;applet code = MultipleSelectionList.class width=400 height=400&gt;</p>
+
+<p>&lt;/applet&gt;</p>
+
+<p>&lt;/html&gt;</p>
+
+<p><strong>COMMAND TO EXECUTE:</strong></p>
+
+<p>c:\Program Files\Java\jdk1.7.0_01\bin&gt;javac MultipleSelectionList.java</p>
+
+<p>c:\Program Files\Java\jdk1.7.0_01\bin&gt;appletviewer MultipleSelectionList.java</p>
+
+<p><strong>OUTPUT:</strong></p>
+
+<p><img src="../img/ex7.png" alt="Output" title=""></p>
+
+<p><strong>Ex.No:8 Write a Java Program to create a frame with three text fields for name, age and qualification and a text field for multiple line for address</strong></p>
+
+
+
+<pre class="prettyprint"><code class="language-java hljs "><span class="hljs-keyword">import</span> java.awt.*<span class="hljs-string">";
+
+import java.awt.event.*"</span>;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">personaldetails</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Frame</span>
+
+{</span>
+
+TextField t1,t2,t3,t4;
+
+Label l1,l2,l3,l4;
+
+TextArea ta;
+
+ personaldetails()
+
+{
+
+setLayout(<span class="hljs-keyword">new</span> GridLayout(<span class="hljs-number">4</span>,<span class="hljs-number">2</span>));
+
+t1=<span class="hljs-keyword">new</span> TextField(<span class="hljs-number">30</span>);
+
+t2=<span class="hljs-keyword">new</span> TextField(<span class="hljs-number">30</span>);
+
+t3=<span class="hljs-keyword">new</span> TextField(<span class="hljs-number">30</span>);
+
+ta=<span class="hljs-keyword">new</span> TextArea(<span class="hljs-string">" "</span>,<span class="hljs-number">2</span>,<span class="hljs-number">5</span>);
+
+l1=<span class="hljs-keyword">new</span> Label(<span class="hljs-string">"Name"</span>,Label.LEFT);
+
+l2=<span class="hljs-keyword">new</span> Label(<span class="hljs-string">"Age"</span>,Label.LEFT);
+
+l3=<span class="hljs-keyword">new</span> Label(<span class="hljs-string">"Qualification"</span>,Label.LEFT);
+
+l4=<span class="hljs-keyword">new</span> Label(<span class="hljs-string">"Address"</span>,Label.LEFT);
+
+add(l1);
+
+add(t1);
+
+add(l2);
+
+add(t2);
+
+add(l3);
+
+add(t3);
+
+add(l4);
+
+add(ta);
+
+}
+
+<span class="hljs-annotation">@SuppressWarnings</span>(<span class="hljs-string">"deprecation"</span>)
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(String [] args)
+
+{
+
+personaldetails m=<span class="hljs-keyword">new</span> personaldetails();
+
+m.setSize(<span class="hljs-number">300</span>,<span class="hljs-number">250</span>);
+
+m.addWindowListener(<span class="hljs-keyword">new</span> WindowAdapter()
+
+{
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">windowClosing</span>(WindowEvent e)
+
+{
+
+System.exit(<span class="hljs-number">0</span>);
+
+}
+
+}
+
+);
+
+m.show();
+
+}
+
+}</code></pre>
+
+<p><strong>COMMAND TO EXECUTE:</strong></p>
+
+<p>c:\Program Files\Java\jdk1.7.0_01\bin&gt;javac  personaldetails.java</p>
+
+<p>c:\Program Files\Java\jdk1.7.0_01\bin&gt;java personaldetails</p>
+
+<p><strong>OUTPUT:</strong></p>
+
+<p><img src="../img/ex8.png" alt="Output" title=""></p>
+
+<p><strong>Ex.No:9 Write a Java Program to create Menu Bars and pull down menus</strong></p>
+
+
+
+<pre class="prettyprint"><code class="language-java hljs "><span class="hljs-keyword">import</span> java.awt.*<span class="hljs-string">";
+
+import java.applet.*"</span>;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Menudemo</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Applet</span>
+
+{</span>
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">init</span>()
+
+{
+
+<span class="hljs-keyword">int</span> width=Integer.parseInt(getParameter(<span class="hljs-string">"width"</span>));
+
+<span class="hljs-keyword">int</span> height=Integer.parseInt(getParameter(<span class="hljs-string">"height"</span>));
+
+Frame f=<span class="hljs-keyword">new</span> Frame(<span class="hljs-string">"demo Frame"</span>);
+
+f.resize(width,height);
+
+MenuBar mbar=<span class="hljs-keyword">new</span> MenuBar();
+
+f.setMenuBar(mbar);
+
+Menu fi=<span class="hljs-keyword">new</span> Menu(<span class="hljs-string">"File"</span>);
+
+fi.add(<span class="hljs-keyword">new</span> MenuItem(<span class="hljs-string">"New"</span>));
+
+fi.add(<span class="hljs-keyword">new</span> MenuItem(<span class="hljs-string">"Open"</span>));
+
+fi.add(<span class="hljs-keyword">new</span> MenuItem(<span class="hljs-string">"Close"</span>));
+
+fi.add(<span class="hljs-keyword">new</span> MenuItem(<span class="hljs-string">"-"</span>));
+
+fi.add(<span class="hljs-keyword">new</span> MenuItem(<span class="hljs-string">"new"</span>));
+
+mbar.add(fi);
+
+Menu edit=<span class="hljs-keyword">new</span> Menu(<span class="hljs-string">"Edit"</span>);
+
+edit.add(<span class="hljs-keyword">new</span> MenuItem(<span class="hljs-string">"Cut"</span>));
+
+edit.add(<span class="hljs-keyword">new</span> MenuItem(<span class="hljs-string">"Copy"</span>));
+
+edit.add(<span class="hljs-keyword">new</span> MenuItem(<span class="hljs-string">"paste"</span>));
+
+edit.add(<span class="hljs-keyword">new</span> MenuItem(<span class="hljs-string">"-"</span>));
+
+Menu sub=<span class="hljs-keyword">new</span> Menu(<span class="hljs-string">"Special"</span>);
+
+sub.add(<span class="hljs-keyword">new</span> MenuItem(<span class="hljs-string">"First"</span>));
+
+sub.add(<span class="hljs-keyword">new</span> MenuItem(<span class="hljs-string">"Second"</span>));
+
+sub.add(<span class="hljs-keyword">new</span> MenuItem(<span class="hljs-string">"Third"</span>));
+
+edit.add(sub);
+
+edit.add(<span class="hljs-keyword">new</span> CheckboxMenuItem(<span class="hljs-string">"Debug"</span>));
+
+edit.add(<span class="hljs-keyword">new</span> CheckboxMenuItem(<span class="hljs-string">"Testing"</span>));
+
+mbar.add(edit);
+
+f.show();
+
+}
+
+}</code></pre>
+
+<p>&lt;html&gt;</p>
+
+<p>&lt;head&gt;</p>
+
+<p>&lt;applet code=”Menudemo.class” width=400 height=400&gt;</p>
+
+<p>&lt;/applet&gt;</p>
+
+<p>&lt;/head&gt;</p>
+
+<p>&lt;/html&gt;</p>
+
+<p><strong>COMMAND TO EXECUTE:</strong></p>
+
+<p>c:\Program Files\Java\jdk1.7.0_01\bin&gt;javac Menudemo.java</p>
+
+<p>c:\Program Files\Java\jdk1.7.0_01\bin&gt;appletviewer Menudemo.java</p>
+
+<p><strong>OUTPUT:</strong></p>
+
+<p><img src="../img/ex9.png" alt="Output" title=""></p>
+
+<p><strong>Ex.No:10 Write a Java Program to create frames which respond to the mouse clicks.</strong></p>
+
+<p><strong>*For each events with mouse such as mouse up, mouse down, etc., the corresponding message to be displayed.</strong></p>
+
+
+
+<pre class="prettyprint"><code class="language-java hljs "><span class="hljs-keyword">import</span> java.applet.*<span class="hljs-string">";
+
+import java.awt.*"</span>;
+
+<span class="hljs-keyword">import</span> java.awt.event.*<span class="hljs-string">";
+
+public class MouseEvents extends Applet implements MouseListener, MouseMotionListener
+
+{
+
+String msg = "</span> <span class="hljs-string">";
+
+int x,y,mousex = 0,mousey = 0;
+
+public void init()
+
+{
+
+addMouseListener(this);
+
+addMouseMotionListener(this);
+
+}
+
+public void mousePressed(MouseEvent me)
+
+{
+
+x=50;
+
+y=100;
+
+msg="</span>mouse pressed<span class="hljs-string">";
+
+repaint();
+
+}
+
+public void mouseClicked(MouseEvent me)
+
+{
+
+x=50;
+
+y=100;
+
+msg="</span>mouse clicked<span class="hljs-string">";
+
+repaint();
+
+}
+
+public void mouseExited(MouseEvent me)
+
+{
+
+x=50;
+
+y=100;
+
+msg="</span>mouse Exited<span class="hljs-string">";
+
+repaint();
+
+}
+
+public void mouseReleased(MouseEvent me)
+
+{
+
+x=50;
+
+y=100;
+
+msg="</span>mouse Released<span class="hljs-string">";
+
+repaint();
+
+}
+
+public void mouseEntered(MouseEvent me)
+
+{
+
+x=50;
+
+y=100;
+
+msg="</span>mouse Enterted<span class="hljs-string">";
+
+repaint();
+
+}
+
+public void mouseDragged(MouseEvent me)
+
+{
+
+msg="</span><span class="hljs-string">";
+
+showStatus("</span>Dragged at<span class="hljs-string">"+me.getX()+"</span>,<span class="hljs-string">"+me.getY());
+
+repaint();
+
+}
+
+public void mouseMoved(MouseEvent me)
+
+{
+
+showStatus("</span>Moved at<span class="hljs-string">"+me.getX()+"</span>,<span class="hljs-string">"+me.getY());
+
+repaint();
+
+}
+
+public void paint(Graphics g)
+
+{
+
+g.drawString(msg,x,y);
+
+}
+
+}</span></code></pre>
+
+<p>&lt;html&gt;</p>
+
+<p>&lt;head&gt;</p>
+
+<p>&lt;applet code=”MouseEvents”, width=400 height=400&gt;</p>
+
+<p>&lt;/applet&gt;</p>
+
+<p>&lt;/head&gt;</p>
+
+<p>&lt;/html&gt;</p>
+
+<p><strong>COMMAND TO EXECUTE:</strong></p>
+
+<p>c:\PROGRA~1\Java\JDK17~1.0_0\bin&gt;javac  MouseEvents.java</p>
+
+<p>c:\PROGRA~1\Java\JDK17~1.0_0\bin&gt;appletviewer  MouseEvents.java</p>
+
+<p><strong>OUTPUT:</strong></p>
+
+<p><img src="../img/ex10.png" alt="Output" title=""></p>
+
+<p><strong>Ex.No:11 Write a Java Program to draw circle, square, ellipse and rectangle at the mouse click positions.</strong></p>
+
+
+
+<pre class="prettyprint"><code class="language-java hljs "><span class="hljs-keyword">import</span> java.applet.*<span class="hljs-string">";
+
+import java.awt.*"</span>;
+
+<span class="hljs-keyword">import</span> java.awt.event.*<span class="hljs-string">";
+
+public class Mouseclick extends Applet
+
+{
+
+int x=0,y=0,c=0;
+
+public void init()
+
+{
+
+addMouseListener(new MouseAdapter()
+
+{
+
+public void mousePressed(MouseEvent me)
+
+{
+
+c++;
+
+x = me.getX();
+
+y = me.getY();
+
+repaint();
+
+}
+
+});
+
+}
+
+public void paint(Graphics g)
+
+{
+
+if(c%4==1)
+
+g.drawOval(x,y,150,150);
+
+else if(c%4==2)
+
+g.drawRect(x,y,150,150);
+
+else if(c%4==3)
+
+g.drawOval(x,y,100,150);
+
+else if(c%4==0)
+
+g.drawRect(x,y,100,150);
+
+}
+
+}</span></code></pre>
+
+<p>&lt;html&gt;</p>
+
+<p>&lt;head&gt;</p>
+
+<p>&lt;title&gt;Mouse click&lt;/title&gt;&lt;/head&gt;</p>
+
+<p>&lt;body&gt;</p>
+
+<p>&lt;applet code = Mouseclick.class width=400 height=400&gt;</p>
+
+<p>&lt;/applet&gt;</p>
+
+<p>&lt;/body&gt;</p>
+
+<p>&lt;/html&gt;</p>
+
+<p><strong>COMMAND TO EXECUTE:</strong></p>
+
+<p>c:\Program Files\Java\jdk1.7.0_01\bin&gt;javac Mouseclick.java</p>
+
+<p>c:\Program Files\Java\jdk1.7.0_01\bin&gt;appletviewer Mouseclick .java</p>
+
+<p><strong>OUTPUT:</strong></p>
+
+<p><img src="../img/ex11.png" alt="Output" title=""></p>
+
+<p><strong>Ex.No:12 Write a Java Program which open an existing file and append text to that file.</strong></p>
+
+
+
+<pre class="prettyprint"><code class="language-java hljs "><span class="hljs-keyword">import</span> java.io.*<span class="hljs-string">";
+
+class RandomAccessFile
+
+{
+
+public static void main(String args[])
+
+{
+
+RandomAccessFile rFile;
+
+try
+
+{
+
+rFile=new RandomAccessFile("</span>city.txt<span class="hljs-string">","</span>rw<span class="hljs-string">");
+
+rFile.seek(rFile.length());
+
+rFile.writeBytes("</span>\nCHENNAI<span class="hljs-string">");
+
+rFile.close();
+
+}
+
+catch(IOException ioe)
+
+{
+
+System.out.println(ioe);
+
+}
+
+}
+
+}
+</span></code></pre>
+
+<p><strong>COMMAND TO EXECUTE:</strong></p>
+
+<p>c:\Program Files\Java\JDK17~1.0_0\bin&gt;javac RandomAccessFile.javac:\Program Files\Java\JDK17~1.0_0\bin&gt;java RandomAccessFile</p>
+
+<p>c:\Program Files\Java\JDK17~1.0_0\bin&gt;type city.txt</p>
+
+<p><strong>OUTPUT:</strong></p>
+
+<p>CHENNAI</p>
+
+<p>c:\Program Files\Java\JDK17~1.0_0\bin&gt;</p>
