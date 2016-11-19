@@ -501,7 +501,7 @@ c:\Program Files\Java\jdk1.7.0\_01\bin&gt;javac shapes.java
 
 c:\Program Files\Java\jdk1.7.0\_01\bin&gt;appletviewer shapes.java
 
-##OUTPUT:
+###OUTPUT:
 
 ![Output](../img/ex5.png)
 
@@ -632,7 +632,7 @@ Note: Recompile with -Xlint:deprecation for details.
 
 c:\Program Files\Java\jdk1.7.0\_01\bin < java Buttonclick
 
-##OUTPUT:
+###OUTPUT:
 
 ![Output](../img/ex6.png)
 
