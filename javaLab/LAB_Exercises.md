@@ -1,6 +1,6 @@
 #JAVA LAB MANUAL
 
-Refer to the HTML version for the table of contents [here]()
+Refer to the HTML version for the table of contents [here](https://rawgit.com/kgashok/orientations/master/javaLab/javaLabManual.html)
 
 [TOC] 
 
