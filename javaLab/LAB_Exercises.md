@@ -1,7 +1,8 @@
 #JAVA LAB MANUAL
 
-[TOC]
+Refer to the HTML version for the table of contents [here]()
 
+[TOC] 
 
 ##Ex.No:1 Write a Java Applications to extract a portion of a character string and print the extracted string.**
 ```java
