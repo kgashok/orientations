@@ -499,7 +499,7 @@ g.drawOval(550,400,100,40);
 
 c:\Program Files\Java\jdk1.7.0\_01\bin&gt;javac shapes.java
 
-c:\Program Files\Java\jdk1.7.0\_01\bin&gt;appletviewer shapes.java
+c:\Program Files\Java\jdk1.7.0\_01\bin&gt;appletviewer shapes.java  
 
 ###OUTPUT:
 
@@ -630,7 +630,8 @@ Note: Buttonclick.java uses or overrides a deprecated API.
 
 Note: Recompile with -Xlint:deprecation for details.
 
-c:\Program Files\Java\jdk1.7.0\_01\bin < java Buttonclick
+c:\Program Files\Java\jdk1.7.0\_01\bin < java Buttonclick  
+
 
 ###OUTPUT:
 
