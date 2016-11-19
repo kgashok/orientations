@@ -2,6 +2,7 @@
 
 Refer to the HTML version for the table of contents [here](https://rawgit.com/kgashok/orientations/master/javaLab/javaLabManual.html)
 
+[TOC]
 
 ##Ex.No:1 Write a Java Applications to extract a portion of a character string and print the extracted string.**
 ```java
