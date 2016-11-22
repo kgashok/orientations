@@ -17,6 +17,8 @@ _Questions first, answers next, and then learning follows!_
 	- True or False? 
 6. In Java, there are no pointer data types or variables. So, **indirection** is not possible. Just like in C/C++. 
 	- True or False? 
+6. In Java, operator **overloading** is possible. Just like in C++ (but not C). 
+	- True or False? 
 6. In Java, it is always strictly **call by value**. Just like in C, and unlike C++. 
 	- True of False? 
 6. The Java language components (JVM, JRE and SDK) are developed in Java itself. Just like C++ is built using the C++ language. 
