@@ -60,3 +60,42 @@ Managing Input / Output Files in Java : Concepts of Streams- Stream Classes – 
 1. Write a Java Program which open an existing file and append text to that file.
 
 
+## 3 SEMESTER III CORE 5 : C++ PROGRAMMING
+
+Subject Description: This subject deals with Object–oriented programming concepts like Abstraction, Encapsulation, Inheritance and Polymorphism.
+
+Goal: Knowledge on Object–oriented concept and programming with C++.
+
+Objective: To inculcate knowledge on Object-oriented programming concepts using C++.
+
+UNIT-I: Introduction to C++ - key concepts  of Object-Oriented Programming –Advantages
+
+– Object Oriented Languages – I/O in C++ - C++ Declarations. Control Structures : - Decision Making and Statements : If .. else ,jump, goto, break, continue, Switch case statements - Loops in C++ : For,While, Do - Functions in C++ - Inline functions – Function Overloading.
+
+UNIT-II : Classes and Objects : Declaring Objects – Defining Member Functions – Static Member variables and functions – array of objects –friend functions – Overloading member functions – Bit fields and classes – Constructor and destructor with static members.
+
+UNIT-III
+
+Operator Overloading: Overloading unary, binary operators – Overloading Friend functions – type conversion – Inheritance: Types of Inheritance – Single, Multilevel, Multiple, Hierarchal, Hybrid, Multi path inheritance – Virtual base Classes – Abstract Classes.
+
+UNIT-IV:
+
+Pointers – Declaration – Pointer to Class , Object – this pointer – Pointers to derived classes and Base classes – Arrays – Characteristics – array of classes – Memory models – new and delete operators – dynamic object – Binding , Polymorphism and Virtual Functions.
+
+UNIT-V:
+
+Files – File stream classes – file modes – Sequential Read / Write operations – Binary and ASCII Files – Random Access Operation – Templates – Exception Handling - String – Declaring and Initializing string objects – String Attributes – Miscellaneous functions .
+
+_TEXT BOOKS :_
+
+1. Ashok N Kamthane , OBJECT-ORIENTED PROGRAMMING WITH ANSI AND TURBOC C++, Pearson Education publication. 2003.
+
+_REFERENCE BOOKS:_
+
+1.E. Balagurusamy, OBJECT-ORIENTED PROGRAMMING WITH C++, Tata Mc-Grawhill Pupblication, 1998.
+
+1. Maria Litvin &amp; Gray Litvin , C++ for you, Vikas publication, 2002.
+2. John R Hubbard, Programming with C, 2nd Edition, TMH publication, 2002.
+
+## 4 Misc
+This file was generated using https://word-to-markdown.herokuapp.com/
