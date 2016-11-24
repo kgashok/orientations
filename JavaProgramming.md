@@ -23,6 +23,7 @@
 		- How to become a better Java developer? http://j.mp/betterJava
 		- Stackoverflow Questions - http://j.mp/hashmapJava
 		- Video to show - http://j.mp/jvmVideo (3 minutes, from C to Java) 
+		- What is the purpose of an Applet - http://bit.ly/appletPurpose
 
 2. Upfront **MCQ** - About 20-30 - aligned with intent to help them score well in assessments / final exams 
 	- The 20 **WHY** Challenge Questions for Java 
