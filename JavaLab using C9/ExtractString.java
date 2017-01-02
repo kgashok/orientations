@@ -5,8 +5,8 @@ import java.util.Scanner;
  */
 public class ExtractString {
   public static void main(String args[]) {
-	  String string, subString;
-	  int firstIndex, secondIndex;
+    String string, subString;
+    int firstIndex, secondIndex;
     Scanner in = new Scanner(System.in);
     System.out.println("Enter the String : ");
     string = in.next(); 
