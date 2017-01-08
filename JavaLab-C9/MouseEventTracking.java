@@ -5,8 +5,9 @@ import java.awt.event.*;
 /*
  @Purpose   : This Java Applet tracks the Mouse Events and displays appropriate messages .
  */
-public class MouseEventTracking extends Applet implements MouseListener,
-    MouseMotionListener {
+public class MouseEventTracking extends Applet 
+  implements MouseListener, MouseMotionListener {
+
   private static final long serialVersionUID = 1L;
   String msg = " ";
   int msgheight, msgwidth, mousex = 0, mousey = 0;

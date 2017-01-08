@@ -34,11 +34,13 @@ public class PersonalDetails extends Frame {
   public static void main(String[] args) {
     PersonalDetails personalDetails = new PersonalDetails();
     personalDetails.setSize(300, 250);
-    personalDetails.addWindowListener(new WindowAdapter() {
-      public void windowClosing(WindowEvent e) {
-        System.exit(0);
+    personalDetails.addWindowListener(
+      new WindowAdapter() {
+        public void windowClosing(WindowEvent e) {
+          System.exit(0);
+        }
       }
-    });
+    );
     personalDetails.show();
   }
 }
