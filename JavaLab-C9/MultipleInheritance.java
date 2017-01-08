@@ -1,5 +1,5 @@
 /*
-@Purpose     : Implement multiple interface using Interfaces. 
+@Purpose     : Implement multiple inheritance using Interfaces. 
  */
 class Student {
   int rollNo;
@@ -31,23 +31,22 @@ class StudentTest extends Student {
 
 interface Sports {
   int sportsMark = 75;
-
-  void printSportsMark();
+  void printSportsMark();  // needs to overridden in implementing class
 }
 
 class Result extends StudentTest implements Sports {
   int totalMarks;
 
   public void printSportsMark() {
-    System.out.println("SportMark=" + sportsMark);
+    System.out.println("\n\nSports Marks   :" + sportsMark);
   }
 
   void displayTotalMarks() {
     totalMarks = mark1 + mark2 + sportsMark;
     System.out.println("\tSCORE CARD");
-    printStudentDetails();
-    printMarks();
-    System.out.println("\n\nSports Marks   :" + sportsMark);
+    printStudentDetails(); // invoking parent "Students" class method
+    printMarks();          // invoking derived "StudentTest" class method
+    printSportsMark();     // invoking Implemented "Sports" class method
     System.out.println("Total Marks    :" + totalMarks);
   }
 }
