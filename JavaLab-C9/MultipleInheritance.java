@@ -52,7 +52,7 @@ class Result extends StudentTest implements Sports {
   }
 }
 
-class ExampleMultipleInheritance {
+class MultipleInheritance {
   public static void main(String args[]) {
     Result studentObject = new Result();
     studentObject.setRollNumber(1000);
