@@ -1,4 +1,4 @@
-import java.io.DataInputStream;
+import java.util.Scanner;
 import java.io.IOException;
 
 /*
@@ -6,22 +6,19 @@ import java.io.IOException;
  */
 public class ExceptionCheck {
   public static void main(String args[]) throws IOException {
-    int payAmount;
-    DataInputStream inputAmount = new DataInputStream(System.in);
+    Scanner sc = new Scanner(System.in);
     System.out.println("\n\nCHECK PAY MODULE");
     System.out.println("* * *");
     System.out.println("\n Enter a Basic Pay Amount   : ");
-    payAmount = Integer.parseInt(inputAmount.readLine()); // This denotes the
-                                                          // deprecated function
-                                                          // DataInputStream
-                                                          // Class.
+    int payAmount = Integer.parseInt(sc.nextLine()); 
+
     /*
      * A piece of code enclosed within a try - catch block will be handled by
      * the Exception Handler
      */
     try {
       if (payAmount > 1000)
-        throw new PayoutOfBoundException("Basic Pay is Out of Bound");
+        throw new PayOutOfBoundException("Basic Pay is Out of Bound");
       else
         System.out.println("\n Given Basic Pay is:" + payAmount);
     } catch (Exception exception) {
@@ -30,10 +27,10 @@ public class ExceptionCheck {
   }
 }
 
-class PayoutOfBoundException extends IOException {
+class PayOutOfBoundException extends IOException {
   private static final long serialVersionUID = 1L;
 
-  PayoutOfBoundException(String message) {
+  PayOutOfBoundException(String message) {
     System.out.println("\nOOPS!!!! -----   " + message);
   }
 }
