@@ -53,9 +53,9 @@ class Result extends StudentTest implements Sports {
 
 class MultipleInheritance {
   public static void main(String args[]) {
-    Result studentObject = new Result();
-    studentObject.setRollNumber(1000);
-    studentObject.setMarks(75, 100);
-    studentObject.displayTotalMarks();
+    Result studentResult = new Result();
+    studentResult.setRollNumber(1000);
+    studentResult.setMarks(75, 100);
+    studentResult.displayTotalMarks();
   }
 }
