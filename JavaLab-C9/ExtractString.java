@@ -8,7 +8,7 @@ public class ExtractString {
     Scanner sc = new Scanner(System.in);  
 
     System.out.println("Enter the String : ");
-    String string = sc.next(); 
+    String string = sc.nextLine(); 
     System.out.println("Enter the index 1 : ");
     int beginIndex = sc.nextInt();
     System.out.println("Enter the index 2 : ");
