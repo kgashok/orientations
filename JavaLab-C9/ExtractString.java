@@ -5,16 +5,16 @@ import java.util.Scanner;
  */
 public class ExtractString {
   public static void main(String args[]) {
-    String string, subString;
-    int firstIndex, secondIndex;
-    Scanner in = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);  
+
     System.out.println("Enter the String : ");
-    string = in.next(); 
+    String string = sc.next(); 
     System.out.println("Enter the index 1 : ");
-    firstIndex = in.nextInt();
+    int beginIndex = sc.nextInt();
     System.out.println("Enter the index 2 : ");
-    secondIndex = in.nextInt();
-    subString = string.substring(firstIndex, secondIndex);
+    int endIndex = sc.nextInt();
+    
+    String subString = string.substring(beginIndex, endIndex);
     System.out.println("The Substring is : " + subString);
   }
 }
