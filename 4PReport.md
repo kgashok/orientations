@@ -2,7 +2,7 @@
 Why **4P?**
  
 - This is as much a **P**roblem solving workshop as it is a Java workshop
-     - CyberDojo/TDD (regardless of whether they will use it in their future workplace or not) will give them an _teachable_ organized approach to problem solving 
+     - CyberDojo/TDD (regardless of whether they will use it in their future workplace or not) will give them a _teachable_ organized approach to problem solving 
         - flowcharts, dry runs, pseudo code, etc. are the ways of the past (show me one programmer at KGISL who uses this?)
         - https://github.com/ryanmcdermott/clean-code-javascript#favor-functional-programming-over-imperative-programming - one more reason to learn Functions really well through TDD/CyberDojo
 - This is about **P**erfect deliberate practice, thanks to doing in CloudCoder which should give accurate feedback 
