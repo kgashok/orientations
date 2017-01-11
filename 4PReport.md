@@ -9,6 +9,7 @@
 
 ###Tasks Completed 
 
+Refer [https://github.com/kgashok/orientations/issues/38](https://github.com/kgashok/orientations/issues/38) for planned agenda
 ####Part 1: 30th of Dec 2016
 
 	1.	Introduction to Java CodeCamp
