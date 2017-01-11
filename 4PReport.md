@@ -61,14 +61,14 @@ Refer [https://github.com/kgashok/orientations/issues/38](https://github.com/kga
 	d.	Making them understand the concept by Show/Tell Method
 	e.	Weekly/Monthly report on Mentees progress if possible
 
-<p>5.	Mentor can use their own teaching methodology to make them understand. The final goal must be trigger interest to learn Java</p>
-<p>6.	Encourage them to do Project  </p>
+<p>5.	Mentor can use their own teaching methodology to make them understand. The final goal must be to trigger interest in to learn Java</p>
+<p>6.	Encourage them to do Projects (starting with Toy projects).  </p>
 <p>7.	Mentors will be responsible for the students assigned to them.  At the end each team will have assessments.</p>
 
 
 ####Action Item for Students
 
-1. Solve FizzBuzzplus without modifying Covert Method
+1. Come up with a more efficient FizzBuzzPlus considering there might be 100+ filters
 2. FileSorter in CyberDojo
 3. Points listed in FizzBuzz Digital Filter Instruction page
 
