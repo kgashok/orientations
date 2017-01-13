@@ -52,7 +52,7 @@ Refer [https://github.com/kgashok/orientations/issues/38](https://github.com/kga
 
 <p>2.	Mentors will be challenged with PC 1.51 Problems  before Pre JCC  (They must solve all the problems before JCC)</p>
 
-<p>3.	Mentors should be come up with their own custom points for standard problems including FizzBuzzPlus, FileSorter etc (The introduction workshop will be organized for them)</p>
+<p>3.	Mentors should come up with their own custom points for standard problems including FizzBuzzPlus, FileSorter etc (The introduction workshop will be organized for them)</p>
 
 <p>4.	Mentoring with 1: 4 and they must be satisfy the following points :</p>
 	a.	All the mentees should be through in PC-1 in CloudCoder
@@ -61,7 +61,7 @@ Refer [https://github.com/kgashok/orientations/issues/38](https://github.com/kga
 	d.	Making them understand the concept by Show/Tell Method
 	e.	Weekly/Monthly report on Mentees progress if possible
 
-<p>5.	Mentor can use their own teaching methodology to make them understand. The final goal must be to trigger interest in to learn Java</p>
+<p>5.	Mentor can use their own teaching methodology to make them understand. The final goal must be to trigger interest to learn Java</p>
 <p>6.	Encourage them to do Projects (starting with Toy projects).  </p>
 <p>7.	Mentors will be responsible for the students assigned to them.  At the end each team will have assessments.</p>
 
