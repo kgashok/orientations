@@ -1,4 +1,7 @@
 https://dzone.com/articles/how-to-become-a-competent-java-developer
+and 
+
+http://www.kiktronik.com/learn-java-fundamentals-for-beginners/
 
 How to Become a Competent (Java) Developer
 From one developer to the rest, see what sort of skills and experience Java devs should have in their back pockets to succeed in today's world.
