@@ -1,72 +1,69 @@
+[TOC] 
+
+
+### Links 
 https://dzone.com/articles/how-to-become-a-competent-java-developer
 and 
 
 http://www.kiktronik.com/learn-java-fundamentals-for-beginners/
 
-How to Become a Competent (Java) Developer
+# How to Become a Competent (Java) Developer
 From one developer to the rest, see what sort of skills and experience Java devs should have in their back pockets to succeed in today's world.
 
   by Armel Nene   ·  Oct 27, 16 · Java Zone
-Like (73)
- 
- Comment (43)
 
- 
-Saved   Tweet  27.27k Views
-The single app analytics solutions to take your web and mobile apps to the next level.  Try today!  Brought to you in partnership with CA Technologies. 
 For the past couple of years, government and societies have been trying to make “Geek” cool again. Presidents and prime ministers are recommending that computer programming be part of schools’ curriculum. Politics aside, becoming a competent programmer today is more challenging than ever. Just being an introvert genius no longer suffices.
 
 Companies and organizations are looking for people with cognitive skills to add to their technical abilities. It is difficult to put a number on this as it is very company-dependent, but the 70/30 rule could be applied here. That means that people should possess roughly 70% technical skills and 30% soft (cognitive) skills. A “hardcore” developer hardly moves into management if he/she lacks the soft skills required. I have managed many teams across multiple verticals and developed some job descriptions and career progression paths along the way that are in use in some of the largest companies in the world. Let’s try to sum up a few aspects of what seems to be the pattern when companies are recruiting or promoting.
 
-Technical Skills
+## Technical Skills
 Well, this is a no-brainer; your technical skills will get you the interview. When recruiting a Java developer, companies are looking for several factors.
 
-The Fundamentals
+### The Fundamentals
 An understanding of the fundamentals of the Java programming language.
 
 It is good to know how to write code, but knowing the reasoning behind your code and/or your chosen algorithm will make you stand out from the crowd.
 
-Mainstream Programming Tools
+### Mainstream Programming Tools
 Today, the fact is that you cannot be a jack of all trades (master of none). You have to pick which tool you are going to master. This is sometimes dictated by the environment you are working in, but let’s say it is a good bet to go with the following:
 
-Build tools: Maven or Gradle.
+#### Build tools: Maven or Gradle.
 
-SCM: Git (not GitHub. Big difference).
+#### SCM: Git (not GitHub. Big difference).
 
-Build automation: Jenkins.
+#### Build automation: Jenkins.
 
-IDE: Netbeans or Eclipse – not just for writing code, but also code refactoring and debugging from the IDE. I came across plenty of developers who did not how to debug from their favorite IDEs.
+#### IDE: Netbeans or Eclipse 
+ - not just for writing code, but also code refactoring and debugging from the IDE. I came across plenty of developers who did not how to debug from their favorite IDEs.
 
-Bug tracker: Bugzilla or Jira.
+#### Bug tracker: Bugzilla or Jira.
 
-Mainstream Programming Frameworks
-Spring MVC for web development
+### Mainstream Programming Frameworks
+- Spring MVC for web development
+- Knowledge of JSF
 
-Knowledge of JSF
-
-Application Servers
+### Application Servers
 All Java developers should know how to deploy in Apache Tomcat.
 
 As Glassfish development is halting, the next best thing is JBoss WildFly.
 
-Cloud Development
-Get a free account on Amazon EC or PaaS.
+### Cloud Development
+- Get a free account on Amazon EC or PaaS.
+- An alternative option to Amazon is Red Hat OpenShift.
 
-An alternative option to Amazon is Red Hat OpenShift.
-
-Cognitive Skills
+## Cognitive Skills
 It's great that you have a deep knowledge of the Java programming language and various tools, but your employer/clients will also be assessing you on the following aspects.
 
-Communication
+###  Communication
 Communication is key to everything we do. We have to interact with the environment around us, whether it is in our private or professional lives. This is not just the ability to put words together, but how to communicate problems that we are facing, or proposing solutions to those problems. A great communicator knows how to express herself in front of various groups; remember that something that makes clear sense to you might not be the same from someone else's perspective.
 
-Problem Solving
+### Problem Solving
 Developers are problem solvers, philosophers, and thinkers. Don’t be one of those programmers who only writes code and doesn't get involved in the discussion about how to solve problems. Don't be the programmer who says, "Tell me what to create and I’ll create it. Don’t ask me if it is the best way to do it."
 
-Team Player
+### Team Player
 All developers work as part of a team, whether it's with paired programming or a large project. You need to contribute to the team's objectives and goals. Help mentor junior members along the way or assist struggling members in overcoming their hurdles. Don’t have an “I’m just here to do my job and then go home” attitude. Be part of the team. You don’t have to make silly jokes to become “team clown” or always go out on team events but be a team player.
 
-Self-Learning
+### Self-Learning
 This is a very important skill to have; the ability to acquire new skills on your own time. Do not always wait for the company to provide you with training. You need to go out there and learn new technologies and advance in your field. From front-end development to architecture patterns, there is always something new happening. Read blogs and articles and try to join local meet-up groups. What you learn can open up new vertices for your career.
 
 This blog post was not supposed to be this long, but the aim was to tailor it to be useful for aspiring developers — or even veterans.
