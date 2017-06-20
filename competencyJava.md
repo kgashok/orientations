@@ -186,3 +186,10 @@ Handling Exceptions
 
 Handling Exceptions: An overview Propagation of exceptions
 Catching and throwing exceptions Handling multiple exceptions and errors
+
+
+
+Related: 
+
+CD link - http://cyberdojo1.kgfsl.com/kata/edit/EBE1F3ACCE?avatar=lizard 
+
